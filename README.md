@@ -5,5 +5,5 @@ Homework for SQL. Contains the following files:
 - .sql file, Table schema for the Employees Database, exported through Quick Database Diagrams website
 - .sql file, Table schema for the Employees Database, self written code
 - .sql file, SQL Queries for various questions in the exercise
-- .ipyn file, Jupyter notebook for the 'Bonus' part of the assignment (password changed)
+- .ipynb file, Jupyter notebook for the 'Bonus' part of the assignment (password changed)
 - Output folder with two .png files as Output of the 'Bonus' part of the assignment
