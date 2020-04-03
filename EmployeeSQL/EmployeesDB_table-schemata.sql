@@ -1,3 +1,5 @@
+-- Self written SQL code for table schemata
+
 DROP TABLE IF EXISTS departments CASCADE
 DROP TABLE IF EXISTS dept_emp CASCADE
 DROP TABLE IF EXISTS dept_manager CASCADE
@@ -32,7 +34,7 @@ CREATE TABLE dept_manager(
 dept_no VARCHAR,
 FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
 emp_no INTEGER PRIMARY KEY,
-FOREIGN KEY (emp_no) REFERENCES dept_emp(emp_no),
+FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 from_date DATE,
 to_date DATE
 );
